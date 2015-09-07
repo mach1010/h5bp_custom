@@ -10,10 +10,10 @@ If you want to use SASS (.scss actually) then add your css rules to partials in 
 scss/  
 |-- **base** contains the Bitters mixins. Add/change variables, typography, forms, etc. in here  
 |  
-|-- **partials** add `_partial.scss` files in here to add and organize your css rules
+|-- **partials** add `_partial.scss` files in here to add and organize your css rules  
 |  
-|-- **vendor** contains bourbon and neat mixins and normalize
-|
+|-- **vendor** contains bourbon and neat mixins and normalize  
+|  
 |-- **main.scss** add your partials here so they get processed. example: `@import partials/partial`  
 
 Then from the base directory, run `sass --sourcemap=none --watch --scss scss:public/assets/css` to process scss as you work.  
